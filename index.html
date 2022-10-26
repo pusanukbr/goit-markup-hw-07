@@ -484,7 +484,7 @@
 
     <!-- Modal -->
 
-    <div class="backdrop backdrop--is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal modal--transform">
         <button data-modal-close type="button" class="modal__button-close">
           <svg class="modal__icon-close" width="18" height="18">
@@ -496,67 +496,67 @@
 
         <form class="main-form">
           <p class="main-form__title">Залиште свої дані, ми вам передзвонимо</p>
-          <div class="form-field">
-            <label for="name" class="form-field__label">Ім'я</label>
-            <div class="wrapper">
+          <div class="main-form__field">
+            <label for="name" class="main-form__label">Ім'я</label>
+            <div class="main-form__wrapper">
               <input
                 type="text"
                 name="user-name"
                 id="name"
-                class="wrapper__input"
+                class="main-form__input"
                 placeholder=" "
               />
-                <svg class="wrapper__icon" width="18" height="18">
+                <svg class="main-form__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-person"></use>
                 </svg>
             </div>
           </div>
 
-          <div class="form-field">
-            <label for="tel" class="form-field__label">Телефон</label>
-            <div class="wrapper">
-              <input type="tel" name="tel" id="tel" class="wrapper__input" />
-                <svg class="wrapper__icon" width="18" height="18">
+          <div class="main-form__field">
+            <label for="tel" class="fmain-form__label">Телефон</label>
+            <div class="main-form__wrapper">
+              <input type="tel" name="tel" id="tel" class="main-form__input" />
+                <svg class="main-form__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-phone"></use>
                 </svg>
             </div>
           </div>
 
-          <div class="form-field">
-            <label for="mail" class="form-field__label">Пошта</label>
-            <div class="wrapper">
-              <input type="email" name="mail" id="mail" class="wrapper__input" />
-                <svg class="wrapper__icon" width="18" height="18">
+          <div class="main-form__field">
+            <label for="mail" class="main-form__label">Пошта</label>
+            <div class="main-form__wrapper">
+              <input type="email" name="mail" id="mail" class="main-form__input" />
+                <svg class="main-form__icon" width="18" height="18">
                   <use href="./images/icons.svg#icon-email-form"></use>
                 </svg>
             </div>
           </div>
 
-          <div class="form-field">
-            <label for="comment" class="form-field__label">Коментар</label>
+          <div class="main-form__field">
+            <label for="comment" class="main-form__label">Коментар</label>
             <textarea
               name="comment"
               id="comment"
               placeholder="Введіть текст"
-              class="form-field__comment"
+              class="main-form__comment"
             ></textarea>
           </div>
 
-          <div class="form-agree">
-            <label class="form-field__label form-field__agree
+          <div class="main-form__agree">
+            <label class="main-form__label main-form__label--agree
               <input
                 type="checkbox"
                 name="agree"
                 value="agree"
-                class="wrapper__input form-agree__checkbox"
+                class="main-form__input main-form__input--checkbox"
               />
-              <span class="form-agree__checkmark">
-                <svg class="form-agree__icon-tick" width="11" height="8">
+              <span class="main-form__checkmark">
+                <svg class="main-form__icon-tick" width="11" height="8">
                   <use href="./images/icons.svg#icon-tick"></use>
                 </svg>
               </span>
               <span>Погоджуюся з розсилкою та приймаю 
-              <a href="" class="form-agree__contract">Умови договору</a></span>
+              <a href="" class="main-form__contract">Умови договору</a></span>
             </label>
           </div>
           <div class="submit">
